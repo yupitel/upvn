@@ -1,6 +1,6 @@
 {
   "name": "upvn",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "update [major, minor, patch ...] version info with remote npm version info.",
   "main": "index.js",
   "scripts": {
