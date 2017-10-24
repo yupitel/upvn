@@ -1,11 +1,12 @@
 {
   "name": "upvn",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "update [major, minor, patch ...] version info with remote npm version info.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "readmeFilename": "README.md",
   "keywords": [
     "npm",
     "version",
@@ -14,7 +15,7 @@
     "minor",
     "patch"
   ],
-  "author": "Shunsuke",
+  "author": "Shunsuke <qfoori@gmail.com>",
   "license": "ISC",
   "bin": {
     "upvn": "./bin/upvn.js"
@@ -26,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/yupitel/upvn/issues"
   },
-  "homepage": "https://github.com/yupitel/upvn#readme"
+  "homepage": "https://github.com/yupitel/upvn#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+  }
 }
