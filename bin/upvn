@@ -1,4 +1,4 @@
-const upvn = require('../index');
+const upvn = require('../');
 
 const exit = () => {
   process.exit();
