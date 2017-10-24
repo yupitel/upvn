@@ -1,4 +1,4 @@
-const upvn = require('../index.js');
+const upvn = require('../index');
 
 const exit = () => {
   process.exit();
@@ -44,8 +44,8 @@ if (usable === false) {
 }
 
 upvn.update(data)
-  .then(() => {
-    console.log('finished');
+  .then((version) => {
+    console.log(`update version to ${version}`);
   })
   .catch((e) => {
     console.log(e);

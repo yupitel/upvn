@@ -110,12 +110,12 @@ const Upvn = {
                 reject(err);
                 return;
               }
-              resolve(null);
+              resolve(data.version);
             });
           });
         })
-        .then(() => {
-          resolve();
+        .then((version) => {
+          resolve(version);
         })
         .catch((e) => {
           reject(e);
