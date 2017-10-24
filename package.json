@@ -1,5 +1,5 @@
 {
-  "name": "unv",
+  "name": "upvn",
   "version": "0.0.1",
   "description": "update [major, minor, patch ...] version info with remote npm version info.",
   "main": "index.js",
@@ -17,14 +17,14 @@
   "author": "Shunsuke",
   "license": "ISC",
   "bin": {
-    "unv": "unv.js"
+    "upvn": "upvn.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://yupitel@github.com/yupitel/unv.git"
+    "url": "git+https://yupitel@github.com/yupitel/upvn.git"
   },
   "bugs": {
-    "url": "https://github.com/yupitel/unv/issues"
+    "url": "https://github.com/yupitel/upvn/issues"
   },
-  "homepage": "https://github.com/yupitel/unv#readme"
+  "homepage": "https://github.com/yupitel/upvn#readme"
 }

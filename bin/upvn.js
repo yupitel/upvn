@@ -1,11 +1,11 @@
-const unv = require('../index.js');
+const upvn = require('../index.js');
 
 const exit = () => {
   process.exit();
 };
 
 
-const ARGTYPE = unv.TYPE;
+const ARGTYPE = upvn.TYPE;
 
 const data = {};
 const argv = process.argv;
@@ -43,7 +43,7 @@ if (usable === false) {
   exit();
 }
 
-unv.update(data)
+upvn.update(data)
   .then(() => {
     console.log('finished');
   })

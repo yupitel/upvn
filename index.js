@@ -15,7 +15,7 @@ const ARGTYPE = {
 
 const PACKAGE = './package.json';
 
-const Unv = {
+const Upvn = {
   update: (options) => {
     return new Promise((resolve, reject) => {
       Promise.resolve(options)
@@ -124,5 +124,5 @@ const Unv = {
   }
 };
 
-module.exports = Unv;
+module.exports = Upvn;
 module.exports.TYPE = ARGTYPE;
