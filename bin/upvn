@@ -48,7 +48,7 @@ if (usable === false) {
 
 upvn.update(data)
   .then((version) => {
-    console.log(`update version to ${version}`);
+    console.log(version);
   })
   .catch((e) => {
     console.log(e);
