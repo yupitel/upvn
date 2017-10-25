@@ -15,11 +15,11 @@ Update version info before publish library to NPM.
 parameter | description | version info in NPM | sample param | result
 :----- | :-----: | :-----: | :-----: | :-----:
 <newversion\> | version info. X.Y.Z ... format.<br /> default value is override with this.| 1.2.3 | 3.4.5 | 3.4.5
-major | increment major version | 1.2.3 | major | 2.2.3
-minor | increment minor version | 1.2.3 | minor | 1.3.3
+major | increment major version | 1.2.3 | major | 2.0.0
+minor | increment minor version | 1.2.3 | minor | 1.3.0
 patch | increment patch version | 1.2.3 | patch | 1.2.4
-premajor | increment major version and set release info | 1.2.3 | premajor | 2.2.3-0
-preminor | increment minor version and set release info | 1.2.3 | preminor | 1.3.3-0
+premajor | increment major version and set release info | 1.2.3 | premajor | 2.0.0-0
+preminor | increment minor version and set release info | 1.2.3 | preminor | 1.3.0-0
 prepatch | increment patch version and set release info | 1.2.3 | prepatch | 1.2.4-0
 prerelease | increment release version | 1.2.3-0 | prerelease | 1.2.3-1
 
