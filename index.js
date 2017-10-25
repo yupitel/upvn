@@ -66,16 +66,25 @@ const Upvn = {
         
           if (datatype === 'major') {
             major = parseInt(major, 10) + 1;
+            minor = 0;
+            patch = 0;
           } else if (datatype === 'minor') {
             minor = parseInt(minor, 10) + 1;
+            patch = 0;
           } else if (datatype === 'patch') {
             patch = parseInt(patch, 10) + 1;
           } else if (datatype === 'premajor') {
             major = parseInt(major, 10) + 1;
+            minor = 0;
+            patch = 0;
+            rel   = 0;
           } else if (datatype === 'preminor') {
             minor = parseInt(minor, 10) + 1;
+            patch = 0;
+            rel   = 0;
           } else if (datatype === 'prepatch') {
             patch = parseInt(patch, 10) + 1;
+            rel   = 0;
           } else if (datatype === 'prerelease') {
             rel   = parseInt(rel, 10) + 1;
           }
